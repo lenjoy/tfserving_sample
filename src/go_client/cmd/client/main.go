@@ -32,7 +32,6 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	google_protobuf "github.com/golang/protobuf/ptypes/wrappers"
-	_ "github.com/tensorflow/tensorflow/tensorflow/go"
 
 	tf_core_example "go_client/tensorflow/core/example"
 	tf_core_framework "go_client/tensorflow/core/framework"
