@@ -17,14 +17,6 @@
   version = "v1.2.0"
 
 [[projects]]
-  digest = "1:cfb6b1cd9f515a139441a9deb93d843e754dab10c50cbb165536c95d77bb7812"
-  name = "github.com/tensorflow/tensorflow"
-  packages = ["tensorflow/go"]
-  pruneopts = "UT"
-  revision = "a6d8ffae097d0132989ae4688d224121ec6d8f35"
-  version = "v1.12.0"
-
-[[projects]]
   branch = "master"
   digest = "1:7a2e3d6819e7a97a877f8604e737901c6941e76d56ae98a51a1ca2f13de351fb"
   name = "golang.org/x/net"
@@ -121,7 +113,6 @@
     "github.com/golang/protobuf/proto",
     "github.com/golang/protobuf/ptypes/any",
     "github.com/golang/protobuf/ptypes/wrappers",
-    "github.com/tensorflow/tensorflow/tensorflow/go",
     "golang.org/x/net/context",
     "google.golang.org/grpc",
     "google.golang.org/grpc/credentials",
