@@ -12,6 +12,9 @@ go_client:
 	@GOPATH=$(GOPATH) $(GOCMD) build -v -o $(OUTPUT_DIR)/go_client/client go_client/cmd/client/$(wildcard *.go)
 	@echo $(OUTPUT_DIR)/go_client/client
 
+	@GOPATH=$(GOPATH) $(GOCMD) build -v -o $(OUTPUT_DIR)/go_client/client2 go_client/cmd/client2/$(wildcard *.go)
+	@echo $(OUTPUT_DIR)/go_client/client2
+
 
 clean:
 	rm -rf $(OUTPUT_DIR)
